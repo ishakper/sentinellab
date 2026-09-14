@@ -18,6 +18,7 @@ import { SupportModule } from './modules/support/support.module';
 import { ScansModule } from './modules/scans/scans.module';
 import { LabModule } from './modules/lab/lab.module';
 import { ReportsModule } from './modules/reports/reports.module';
+import { ResearchProjectsModule } from './modules/research-projects/research-projects.module';
 
 // Guards
 import { JwtAuthGuard } from './modules/auth/guards/jwt-auth.guard';
@@ -88,6 +89,7 @@ import { TenantContextMiddleware } from './common/middleware/tenant-context.midd
     ScansModule,
     LabModule,
     ReportsModule,
+    ResearchProjectsModule,
   ],
   providers: [
     // 1. Global Rate Limiter
