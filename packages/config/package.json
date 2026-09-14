@@ -1,0 +1,11 @@
+{
+  "name": "@sentinel/config",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./index.js",
+  "scripts": {
+    "build": "echo \"Config package - no build needed\"",
+    "clean": "echo \"Nothing to clean\"",
+    "test": "echo \"No tests\""
+  }
+}
