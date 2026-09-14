@@ -24,6 +24,7 @@ export * from './security-event.entity';
 export * from './refresh-token.entity';
 export * from './mfa-method.entity';
 export * from './research-project.entity';
+export * from './authorization-record.entity';
 
 import { Organization } from './organization.entity';
 import { User } from './user.entity';
@@ -51,6 +52,7 @@ import { SecurityEvent } from './security-event.entity';
 import { RefreshToken } from './refresh-token.entity';
 import { MfaMethod } from './mfa-method.entity';
 import { ResearchProject } from './research-project.entity';
+import { AuthorizationRecord } from './authorization-record.entity';
 
 export const ENTITIES = [
   Organization,
@@ -79,4 +81,5 @@ export const ENTITIES = [
   RefreshToken,
   MfaMethod,
   ResearchProject,
+  AuthorizationRecord,
 ];

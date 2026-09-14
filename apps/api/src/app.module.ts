@@ -19,6 +19,7 @@ import { ScansModule } from './modules/scans/scans.module';
 import { LabModule } from './modules/lab/lab.module';
 import { ReportsModule } from './modules/reports/reports.module';
 import { ResearchProjectsModule } from './modules/research-projects/research-projects.module';
+import { AuthorizationRecordsModule } from './modules/authorization-records/authorization-records.module';
 
 // Guards
 import { JwtAuthGuard } from './modules/auth/guards/jwt-auth.guard';
@@ -90,6 +91,7 @@ import { TenantContextMiddleware } from './common/middleware/tenant-context.midd
     LabModule,
     ReportsModule,
     ResearchProjectsModule,
+    AuthorizationRecordsModule,
   ],
   providers: [
     // 1. Global Rate Limiter
